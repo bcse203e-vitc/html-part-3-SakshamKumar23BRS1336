@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Restaurant Menu</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .vegetarian {
+            color: green;
+            font-weight: bold;
+        }
+        .rating {
+            text-align: center;
+        }
+        .dish-name {
+            font-weight: bold;
+        }
+        .ingredients {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Indian Restaurant Menu</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Dish Name</th>
+                <th>Category</th>
+                <th>Ingredients</th>
+                <th>Price</th>
+                <th>Customer Ratings</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="dish-name">Paneer Tikka 🌱</td>
+                <td rowspan="2">Appetizer</td>
+                <td class="ingredients">Paneer, Yogurt, Spices, Herbs</td>
+                <td>$7.99</td>
+                <td rowspan="2" class="rating">★★★★☆</td>
+            </tr>
+            <tr>
+                <td class="dish-name">Samosa 🌱</td>
+                <td class="ingredients">Potatoes, Peas, Spices, Pastry</td>
+                <td>$4.49</td>
+            </tr>
+            <tr>
+                <td class="dish-name">Chicken Tikka Masala</td>
+                <td>Main Course</td>
+                <td class="ingredients">Chicken, Tomatoes, Cream, Spices</td>
+                <td>$14.99</td>
+                <td class="rating">★★★★★</td>
+            </tr>
+            <tr>
+                <td class="dish-name">Aloo Gobi 🌱</td>
+                <td>Main Course</td>
+                <td class="ingredients">Potatoes, Cauliflower, Spices</td>
+                <td>$10.99</td>
+                <td class="rating">★★★★☆</td>
+            </tr>
+            <tr>
+                <td class="dish-name">Butter Chicken</td>
+                <td>Main Course</td>
+                <td class="ingredients">Chicken, Butter, Tomatoes, Cream, Spices</td>
+                <td>$15.99</td>
+                <td class="rating">★★★★★</td>
+            </tr>
+            <tr>
+                <td class="dish-name">Gulab Jamun 🍰</td>
+                <td rowspan="2">Dessert</td>
+                <td class="ingredients">Milk solids, Sugar syrup, Ghee</td>
+                <td>$3.99</td>
+                <td rowspan="2" class="rating">★★★★★</td>
+            </tr>
+            <tr>
+                <td class="dish-name">Rasgulla 🍰</td>
+                <td class="ingredients">Cottage cheese, Sugar syrup</td>
+                <td>$4.49</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

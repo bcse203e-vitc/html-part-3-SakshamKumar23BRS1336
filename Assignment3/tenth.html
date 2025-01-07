@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Tournament League Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .highlight {
+            background-color: #FFD700; /* Gold for top teams */
+            font-weight: bold;
+        }
+        .total-row {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Sports Tournament League Table</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Team Name</th>
+                <th>Matches Played</th>
+                <th>Wins</th>
+                <th>Losses</th>
+                <th>Draws</th>
+                <th>Points</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="highlight">
+                <td>Mumbai Tigers</td>
+                <td>8</td>
+                <td>6</td>
+                <td>2</td>
+                <td>0</td>
+                <td>18</td>
+            </tr>
+            <tr class="highlight">
+                <td>Chennai Super Kings</td>
+                <td>8</td>
+                <td>5</td>
+                <td>3</td>
+                <td>0</td>
+                <td>15</td>
+            </tr>
+            <tr class="highlight">
+                <td>Delhi Daredevils</td>
+                <td>8</td>
+                <td>4</td>
+                <td>2</td>
+                <td>2</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>Kolkata Knight Riders</td>
+                <td>8</td>
+                <td>3</td>
+                <td>4</td>
+                <td>1</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Bangalore Royals</td>
+                <td>8</td>
+                <td>2</td>
+                <td>5</td>
+                <td>1</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Pune Warriors</td>
+                <td>8</td>
+                <td>1</td>
+                <td>6</td>
+                <td>1</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Hyderabad Hawks</td>
+                <td>8</td>
+                <td>0</td>
+                <td>7</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="total-row">
+                <td colspan="6">Total Matches Played: 56</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
